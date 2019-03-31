@@ -1,4 +1,5 @@
-def my_collect([]) do |x|
+def my_collect([])
+  array.collect do |word|
   
 end
 
