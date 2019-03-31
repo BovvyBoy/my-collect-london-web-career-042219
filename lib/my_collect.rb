@@ -3,6 +3,6 @@ def my_collect(languages)
   languages.collect do |language|
     larray << language.upcase
   end
-  language
+  larray
 end
 
