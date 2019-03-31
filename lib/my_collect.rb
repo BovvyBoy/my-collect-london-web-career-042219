@@ -4,7 +4,6 @@ def my_collect(languages)
     language.upcase
     larray << language.split("").first
   end
-  end
   larray
 end
 
