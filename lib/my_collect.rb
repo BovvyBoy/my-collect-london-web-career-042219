@@ -1,8 +1,8 @@
 def my_collect(languages)
   larray = []
   languages.collect do |language|
-    larray << language.upcase
+    larray << language.split("").first
   end
-  larray 
+  larray.upcase
 end
 
