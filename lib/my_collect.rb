@@ -1,7 +1,7 @@
-def my_collect(array)
-  array.collect do |word|
-    word +=1
-  puts word.upcase
+def my_collect(languages)
+  languages.collect do |language|
+    language +=1
+  puts language.upcase
   end
 end
 
