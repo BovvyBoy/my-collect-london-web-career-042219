@@ -1,7 +1,7 @@
 def my_collect(languages)
   larray = []
   languages.collect do |language|
-    larray << 
+    larray << language
   end
   
 end
